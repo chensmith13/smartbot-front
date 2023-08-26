@@ -1,0 +1,364 @@
+#quit{
+    color: white;
+}
+#rg_top{
+    background-image: url("../img/border.png");
+    background-size: 100% 100%;
+    width: 100%;
+    height: calc(8.2vh);
+    margin: auto;
+}
+#rg_top_01,#rg_top_02{
+    float: left;
+}
+#rg_top_03{
+    float: right;
+    padding-top: calc(2.952vh);
+    padding-right: calc(1.56vw);
+    color: white;
+}
+#rg_left{
+    background-image: url("../img/rg_left.png");
+    text-align: center;
+    float: left;
+    height: calc(91.8vh);
+    width: calc(11.076vw);
+    padding-top: calc(1.64vh);
+}
+.func{
+    margin: calc(0.78vw);
+    font-size: calc(1.326vw);
+    text-align: center;
+}
+#rg_left_bottom{
+    margin-top: calc(28vh);
+}
+.chat-avatars{
+    float: left;
+}
+.chat-message{
+    float: left;
+}
+#rg_center{
+    height: calc(91.8vh);
+    width: calc(88.3vw);
+    float: left;
+}
+#rg_center_left{
+    width: calc(32.76vw);
+    height: calc(39.36vh);
+}
+#rg_center_right{
+    width: calc(46.8vw);
+}
+#rg_center_05{
+    float: left;
+    margin-top: calc(8.2vh);
+    margin-left: calc(3.9vw);
+}
+#rg_center_top_05{
+    margin-left: calc(7.8vw);
+    border: calc(0.156vw) solid dodgerblue;
+    padding: calc(1.56vw);
+    width: calc(62.4vw);
+    height: calc(16.4vh);
+}
+#rg_center_top01_05{
+    margin-left: calc(1.17vw);
+    font-size: calc(1.716vw);
+}
+#rg_center_top02_05{
+    font-size: calc(1.404vw);
+    margin-left: calc(3.12vw);
+}
+#rg_center_bottom_05{
+    margin-left: calc(7.8vw);
+    margin-top: calc(4.92vh);
+    border: calc(0.156vw) solid dodgerblue;
+    padding: calc(1.56vw);
+    width: calc(62.4vw);
+    height: calc(52.48vh);
+}
+#rg_center_bottom01_05{
+    margin-left: calc(0.78vw);
+    margin-right: calc(0.78vw);
+    font-size: calc(1.404vw);
+    text-indent: 2em;
+}
+#rg_center_bottom02_05{
+    margin-top: calc(4.1vh);
+    text-align: center;
+}
+#rg_center_bottom03_05{
+    margin-top: calc(1.64vh);
+    text-align: center;
+}
+#rg_center_bottom04_05{
+    margin-top: calc(0.82vh);
+    text-align: right;
+    font-size: calc(1.248vw);
+    margin-right: calc(0.78vw);
+}
+.notclick
+{
+    pointer-events: none;
+}
+#rg_top_img_01{
+    width: calc(6.24vw);
+    height: calc(8.2vh);
+}
+#rg_top_img_02{
+    width: calc(10.92vw);
+    height: calc(8.2vh);
+}
+#rg_left_img_01{
+    width: calc(11.076vw);
+    height: calc(15.58vh);
+}
+#div_community_01{
+    margin-left: calc(6vw);
+    padding: calc(5vh);
+    width: calc(75vw);
+    height: calc(80vh);
+}
+#div_community_02{
+    margin-top: calc(2vh);
+    padding: calc(5vh);
+    border: calc(0.15vw) solid dodgerblue;
+    width: calc(70vw);
+    height: calc(65vh);
+    overflow-y: auto;
+}
+#community_img{
+    width: calc(70vw);
+    height: calc(8vh);
+}
+.div_1{
+    float: left;
+    height: calc(91.8vh);
+    width: calc(88vw);
+}
+#community_content{
+    font-size: calc(1.2vw);
+}
+#change_password_01{
+    border: calc(0.2vw) solid dodgerblue;
+    float: left;
+    margin-top: calc(20vh);
+    margin-left: calc(25vw);
+    padding: calc(5vh);
+    border-radius: calc(3vw);
+}
+#change_password_02{
+    font-size: calc(2vw);
+    font-weight: bold;
+    color: dodgerblue;
+    margin-left: calc(9vw);
+    margin-bottom: calc(5vh);
+}
+#inputpassword1{
+    border-radius: calc(1vh);
+}
+#inputpassword2{
+    border-radius: calc(1vh);
+}
+#change_password_03{
+    margin-top: calc(1vh);
+    margin-right: calc(2vw);
+    float: left;
+    font-size: calc(1vw);
+}
+#change_password_04{
+    float: left;
+}
+#change_password_05{
+    margin-top: calc(1vh);
+    margin-left: calc(1.2vw);
+    margin-right: calc(2vw);
+    float: left;
+}
+#change_password_06{
+    float: left;
+}
+#regist_btn{
+    margin-left: calc(8vw);
+}
+#reg_input{
+    border-radius: calc(1vh);
+    width: calc(8vw);
+    height: calc(6vh);
+}
+#divnew{
+    margin-bottom: calc(3vh);
+}
+#divagain{
+    margin-bottom: calc(4vh);
+}
+#change_password_label01{
+    font-size: calc(1.2vw);
+}
+#change_password_label02{
+    font-size: calc(1.2vw);
+}
+.div_2{
+    float: left;
+    height: calc(91.8vh);
+    width: calc(88vw);
+}
+#findsolvedhistory_01{
+    margin-left: calc(6vw);
+    padding: calc(5vh);
+    width: calc(75vw);
+    height: calc(80vh);
+}
+#findunsolvedhistory_01{
+    margin-left: calc(6vw);
+    padding: calc(5vh);
+    width: calc(75vw);
+    height: calc(80vh);
+}
+#history_img{
+    width: calc(70vw);
+    height: calc(8vh);
+}
+#findsolvedhistory_02{
+    margin-top: calc(2vh);
+    padding: calc(5vh);
+    border: calc(0.15vw) solid dodgerblue;
+    width: calc(70vw);
+    height: calc(65vh);
+}
+#findunsolvedhistory_02{
+    margin-top: calc(2vh);
+    padding: calc(5vh);
+    border: calc(0.15vw) solid dodgerblue;
+    width: calc(70vw);
+    height: calc(65vh);
+}
+#findsolvedhistory_03{
+    overflow-y: auto;
+    width: calc(65vw);
+    height: calc(50vh);
+}
+#findunsolvedhistory_03{
+    overflow-y: auto;
+    width: calc(65vw);
+    height: calc(50vh);
+}
+#history_content{
+    font-size: calc(1.2vw);
+}
+.community_detail01{
+    height: calc(3vh);
+    margin-bottom: calc(6vh);
+}
+.community_detail02{
+    margin-top: calc(1.476vh);
+    margin-left: calc(-2.5vw);
+}
+#community_detail03{
+    padding-left: calc(53vw);
+    height: calc(3vh);
+}
+#community_detail04{
+    margin-bottom: calc(6vh);
+    height: calc(3vh);
+}
+#community_detail05{
+    margin-top: calc(1vh);
+    margin-left: calc(-2.5vw);
+}
+#community_detail_content01,#community_detail_content02{
+    font-size: calc(1.2vw);
+}
+#community_detail06{
+    margin-top: calc(-6.5vh);
+}
+.history_detail01{
+    height: calc(3vh);
+    margin-bottom: calc(6vh);
+}
+.history_detail02{
+    margin-top: calc(1.476vh);
+    margin-left: calc(-2.5vw);
+}
+#history_detail_content01{
+    font-size: calc(1.2vw);
+}
+#user_profile{
+    float: left;
+}
+#user_name{
+    float: left;
+    margin-top: calc(1vh);
+}
+#change_picture01{
+    border: calc(0.2vw) solid dodgerblue;
+    float: left;
+    margin-top: calc(24vh);
+    margin-left: calc(26vw);
+    padding: calc(5vh);
+    border-radius: calc(2vw);
+}
+#change_picture02{
+    font-size: calc(2vw);
+    font-weight: bold;
+    color: dodgerblue;
+    margin-left: calc(11vw);
+    margin-bottom: calc(5vh);
+}
+#change_picture03{
+    margin-left: calc(8vw);
+    font-size: calc(1.2vw);
+}
+#change_picture04{
+    margin-left: calc(12.5vw);
+    margin-top: calc(4vh);
+}
+#change_email01{
+    border: calc(0.2vw) solid dodgerblue;
+    float: left;
+    margin-top: calc(25vh);
+    margin-left: calc(28vw);
+    padding: calc(5vh);
+    border-radius: calc(2vw);
+}
+#change_email02{
+    font-size: calc(2vw);
+    font-weight: bold;
+    color: dodgerblue;
+    margin-left: calc(10vw);
+    margin-bottom: calc(5vh);
+}
+#change_email03{
+    font-size: calc(1.2vw);
+}
+#change_email04{
+    margin-top: calc(4vh);
+    margin-left: calc(10.6vw);
+}
+#checkoemail01{
+    margin-top: calc(2vh);
+}
+#checkoemail02{
+    margin-left: calc(3vw);
+}
+#inputemail{
+    border-radius: calc(1vh);
+    height: calc(5vh);
+    width: calc(20vw);
+}
+.community_detail01{
+    height: calc(3vh);
+    margin-bottom: calc(6vh);
+}
+.community_detail02{
+    margin-top: calc(1.476vh);
+    margin-left: calc(-2.5vw);
+}
+#community_detail_content01{
+    font-size: calc(1.2vw);
+}
+#delete_community_detail{
+    margin-left: calc(58vw);
+}

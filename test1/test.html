@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <script type="text/javascript" src="vue.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="qqq">
+    <button @click="addage()" :type="type">年龄+1</button>
+    <button @click="addsex()" :type="type">添加性别属性</button>
+    <button @click="changesex()" :type="type">修改性别</button>
+    <button @click="addfriend()" :type="type">在列表首位添加朋友</button>
+    <button onclick="f()" :type="type">修改朋友名字为张三</button>
+    <button onclick="f()" :type="type">添加爱好</button>
+    <button onclick="f()" :type="type">添加爱好为开车</button>
+    <h3>姓名：{{student.name}}</h3>
+    <h3>年龄：{{student.age}}</h3>
+    <h3>性别：{{student.sex}}</h3>
+    <h3>爱好：</h3>
+    <li v-for="(a,index) in student.hobby" :key="index">{{a}}</li>
+    <h3>朋友</h3>
+    <li v-for="(a,index) in student.friends" :key="index">{{a}}</li>
+
+</div>
+<script>
+    const x=new Vue(
+        {
+            el:"#qqq",
+            data:
+                {
+                    student:
+                        {
+                            name:'tom',
+                            age:18,
+                            hobby:['抽烟','喝酒','烫头'],
+                            friends:[
+                                {name:'jack',age:16},
+                                {name:'pack',age:18}
+                            ]
+                        }
+                },
+            methods:
+                {
+                    addage()
+                    {
+                        this.student.age+=1
+                    },
+                    addsex()
+                        {
+                            this.$set(this.student,'sex','男')
+                        },
+                    changesex()
+                    {
+                        this.student.sex='女'
+                    },
+                    addfriend()
+                    {
+                        this.student.friends.push("{'tom',18}")
+                    }
+
+                }
+        }
+    )
+</script>
+</body>
+</html>
